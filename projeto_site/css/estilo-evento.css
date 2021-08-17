@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
+
+[class*="col-"] {
+    /*Esses atributos servem para ajudar a ver onde está as colunas na pagina*/
+    float: left;
+    padding: 5px;
+    /*border: 1px solid red;*/
+}
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    height: 100%;
+}
+
+
+.menu-navegacao a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+
+}
+
+.menu-navegacao a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.menu-navegacao ul {
+    float: right;
+}
+
+.menu-navegacao {
+    background-color: #ffffff;
+
+}
+
+.menu-navegacao a:active {
+    text-decoration: underline;
+}
+
+.historia h1 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+.historia p {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.historia p,
+h1 {
+    font-size: 1.0rem;
+}
+
+.historia {
+    display: block;
+
+}
+
+.historia img {
+    float: none;
+    display: block;
+    margin-bottom: 0;
+    width: 100%;
+    height: 400px;
+}
+
+.segundo {
+    background-color: #253551;
+    height: 300px;
+    width: 100%;
+}
+
+.segundo p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 60px;
+    font-weight: bold;
+}
+
+
+.caixa-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-contato p {
+    padding: 12px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.caixa-contato a{
+    text-decoration:none;
+}
+.terceiro {
+    height: 350px;
+
+}
+
+.texto-cuca p {
+
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 25px;
+}
+
+.texto-cuca h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.terceiro img {
+    float: right;
+    height: 100%;
+    clear: left;
+    padding: 20px;
+}
+
+.terceiro01 img {
+    /*Esse é a pratileira 3.5*/
+    float: left;
+    height: 100%;
+    clear: right;
+    padding: 20px;
+}
+
+.terceiro01 {
+    height: 350px;
+    background-color: #253551;
+}
+
+.texto-cuca01 p,
+h2 {
+    color: #ffffff;
+    text-align: right;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 25px;
+}
+
+.texto-cuca01 h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.terceiro02 {
+    height: 350px;
+
+}
+
+.texto-cuca02 p {
+
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 25px;
+}
+
+.texto-cuca02 h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.terceiro02 img {
+    float: right;
+    height: 100%;
+    clear: left;
+    padding: 20px;
+}
+
+.quarto {
+    height: 350px;
+    margin-top: 0;
+    background-color: #253551;
+    margin: 0;
+    padding: 5px;
+}
+
+.quarto h2 {
+    color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 25px;
+}
+
+.caixa-mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-mapa p {
+    color: #ffffff;
+    padding: 12px;
+    border: 2px solid grey;
+    margin-bottom: 25px;
+    font-weight: bold;
+
+}
+
+.quarto ul {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px;
+
+    text-align: left;
+    font-weight: bold;
+
+}
+
+#horario1 {
+    margin-left: 30%;
+    margin-right: 5%;
+}
+
+
+.quarto a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.list-footer {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.list-footer1 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.redes-sociais li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+}

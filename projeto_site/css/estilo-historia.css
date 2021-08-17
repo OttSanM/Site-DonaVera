@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    margin: 0;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
+
+[class*="col-"] {
+    /*Esses atributos servem para ajudar a ver onde está as colunas na pagina*/
+    float: left;
+    padding: 5px;
+    /*border: 1px solid red;*/
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    height: 100%;
+}
+
+
+.menu-navegacao a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+
+}
+
+.menu-navegacao a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.menu-navegacao ul {
+    float: right;
+}
+
+.menu-navegacao {
+    background-color: #ffffff;
+
+}
+
+.menu-navegacao a:active {
+    text-decoration: underline;
+}
+
+.historia h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.historia p {
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.historia p,
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 17px;
+}
+
+.historia {
+    display: block;
+
+}
+
+.historia img {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 400px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-footer {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.list-footer1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.redes-sociais li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
+
+[class*="col-"] {
+    /*Esses atributos servem para ajudar a ver onde está as colunas na pagina*/
+    float: left;
+    padding: 5px;
+    /*border: 1px solid red;*/
+}
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    height: 100%;
+}
+
+
+.menu-navegacao a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: bold;
+
+}
+
+.menu-navegacao a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.menu-navegacao ul {
+    float: right;
+}
+
+.menu-navegacao {
+    background-color: #ffffff;
+
+}
+
+.menu-navegacao a:active {
+    text-decoration: underline;
+}
+
+
+
+
+.texto-formulario h1 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.texto-formulario p {
+
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+/*-------------------------------------------Editavel abaixo*-------------------------------------------------*/
+
+.formulario {
+    /* Centralizar o formulário na pagina */
+    margin-left: 30%;
+    width: 100%;
+    /* Ver o esboço do formulário */
+    padding: 1em;
+
+
+
+}
+
+form div+div {
+    margin-top: 1em;
+}
+
+label {
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* 
+Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+     Por padrão, as áreas de texto possuem a mesma fonte */
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+}
+
+.button {
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 90px;
+    /* mesmo tamanho que os elementos do rótulo */
+}
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+     entre os rótulos e seus campos de texto*/
+    margin-left: .5em;
+}
+
+
+/*Acima daqui---Editavel*/
+ul {
+    list-style-type: none;
+}
+
+
+.list-footer {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.list-footer1 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+
+.redes-sociais li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+    float: right;
+    padding: 5px;
+    margin-right: 10px;
+}
